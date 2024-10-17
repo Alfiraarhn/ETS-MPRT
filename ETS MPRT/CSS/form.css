@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #2d3e50, black);
+    background-size: cover;
+    font-family: arial;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: #6c6d6b;
+}
+
+input, select, button {
+    font-family: arial;
+    color: #1a1313;
+    font-size: 14px;
+}
+
+input {
+    margin-left: 10px;
+    color: #1a1313;
+}
+
+h3, h4 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+:focus {
+    outline: none;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    padding: 20px;
+    background-color: white;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+}
+
+.inner .image-holder {
+    width: 100px;
+    
+}
+
+.inner form {
+    width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+   
+}
+
+.inner h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.inner h4 {
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.form-group input:first-child {
+    margin-right: 20px;
+}
+
+.form-wrapper {
+    position: relative;
+    margin-left: 10px;
+}
+
+.form-control {
+    border: 1px solid #333;
+    border: none;
+    border-bottom: 1px solid #333;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px;
+}
+
+.gender {
+    margin-left: 10px;
+}
+
+select {
+    cursor: pointer;
+    color: gray;
+}
+
+option {
+    color: black;
+}
+
+select option[value=""] [disabled] {
+    display: none;
+}
+
+select option[value="Pilih warna"] [disabled] {
+    display: none;
+    color: #1a1313;
+}
+
+button {
+    padding: 5px 20px;
+    border: 3px solid transparent;
+    border-radius: 200px;
+    margin-block-start: 0;
+
+    background-color: #2d3e50;
+
+    font-family: 'Quicksand' , sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
+
+

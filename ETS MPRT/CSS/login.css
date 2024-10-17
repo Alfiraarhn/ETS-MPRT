@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #2d3e50, black);
+    background-size: cover;
+    font-family: arial;
+    color: #333;
+    margin: 0;
+}
+
+.box {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    padding: 20px;
+    background-color: white;
+    max-width: 850px;
+    margin: auto;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.image img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+header {
+    color: #1a1313;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+input, select, button {
+    font-family: arial;
+    color: #1a1313;
+    font-size: 14px;
+}
+
+input {
+    margin-left: 10px;
+    color: #1a1313;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.form-group input:first-child {
+    margin-right: 20px;
+}
+
+.form-control {
+    border: 1px solid #333;
+    border: none;
+    border-bottom: 1px solid #333;
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding-right: 0;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.showhide {
+    width:100%;     
+    font-size: 12px;
+    box-sizing : border-box;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-size: 10pt;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2d3e50;
+}
+
+.sign {
+    margin: 0;
+}
+
+p {
+    font-size: 10pt;
+    margin-left: 10px;
+}
+
+.submit input[type='submit'] {
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    border-radius: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    background-color: #2d3e50;
+
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    width: 85%;
+    color: white;
+    display: block;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+}
